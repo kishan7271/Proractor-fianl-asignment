@@ -1,0 +1,12 @@
+1. Install node.js in to user device and add its path in environment variables
+2. Go to the folder (In command prompt) enter npm init -f ---> this will add package.json file in the folder
+3. refer example package.json file and proceed further.
+4. Enter command npm install, it will install all the files specified in the dependency.
+5. create config.js file to run your test case.
+
+Sample commands : 
+
+node .\node_modules\protractor\bin\webdriver-manager update  ->> to update webdriver
+"protractor": "./node_modules/.bin/protractor config.js"  --> to run the config file(npm run protractor)
+npm init -f	---> to create package.json file
+npm install	---> to install all the dependency
